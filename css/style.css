@@ -4,7 +4,7 @@ body {
 
 .header {
   padding: 10px 0;
-  position: relative;
+  display: flexbox;
   top: 0;
   left: 0;
   width: 100%;
@@ -49,9 +49,7 @@ body {
 }
 
 .firstview {
-  position: absolute;
-  top: 15%;
-  left: 50%;
+  margin: 0 0 0 auto;
   content: url(../img/firstview.jpeg);
   height: 50%;
   width: 50%;
@@ -64,5 +62,5 @@ body {
   background-color: darkblue;
   width: 70%;
   height: 20%;
-  z-index: 0;
+  z-index: -10;
 }
