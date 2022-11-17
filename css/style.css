@@ -37,13 +37,13 @@ body {
   margin: 0 10px 0 10px;
 }
 
-.main {
+main {
   position: relative;
 }
 
 .title {
   position: absolute;
-  top: 40%;
+  top: 70%;
   font-size: 60px;
 }
 
@@ -57,10 +57,9 @@ body {
 
 .content {
   position: absolute;
-  top: 50%;
-  padding: 20% auto 20px 0;
+  top: 90%;
   background-color: darkblue;
   width: 60%;
-  height: 20%;
+  height: 30%;
   z-index: -10;
 }
